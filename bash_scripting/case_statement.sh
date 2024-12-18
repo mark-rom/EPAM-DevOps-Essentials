@@ -1,3 +1,5 @@
+command=$1
+
 case $command in
     start)
         echo "Service started" && sleep 9999
