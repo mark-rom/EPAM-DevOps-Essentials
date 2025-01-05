@@ -1,5 +1,5 @@
 while true; do
-    read command
+    read -r command
     case $command in
         ls*)
             eval $command ;;
